@@ -148,6 +148,7 @@ namespace Text_Editor.Controllers
             return RedirectToAction("Index", "User");
         }
 
+        //Downloads file
         [HttpPost]
         public FileResult DownloadFile(IFormCollection form)
         {
